@@ -10,6 +10,7 @@ type User struct {
 	isActive bool
 }
 
+//METHOD FUNCTION 
 func (user User) display() string {
 	result := fmt.Sprintf("Name: %s %s, Email: %s", user.FirstName, user.LastName, user.Email)
 	return result
